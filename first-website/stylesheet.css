@@ -1,0 +1,33 @@
+body {
+  background-color: lightskyblue;
+}
+
+
+p {
+  color: rebeccapurple;
+  background:yellow;
+  border: 6px double black;
+  padding: 40px;
+  padding-left: 20px;
+  margin: 50px;
+}
+
+h1{
+  color: red;
+  font-size: 90px;
+  margin-top: 0px;
+  margin-left: 500px
+}
+
+img{
+  max-width: 100%;
+}
+
+.special {
+  background:springgreen;
+  font-size: 30px
+}
+
+.small-image {
+  width: 200px;
+}
