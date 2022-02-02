@@ -1,3 +1,17 @@
 body{
   background-color: lavenderblush;
 }
+
+.h1{
+  font-family: "Snell Roundhand", cursive;
+  text-align: center;
+
+}
+
+p{
+  text-align: center;
+}
+
+.important{
+  color: red;
+}

@@ -1,3 +1,9 @@
 .small-bag {
   width: 400px;
 }
+
+.main{
+  text-align:center;
+  font-family: "apple chancery", cursive;
+  color: blue;
+}
