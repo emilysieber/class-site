@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'cirruscumulusregular';
+    src: url('cirruscumulus-webfont.woff2') format('woff2'),
+         url('cirruscumulus-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+  font-size: 30px;
+  font-family: 'cirruscumulusregular', serif;
+}
+
+p{
+  background-color: navajowhite;
+  padding: 30px;
+  border: 10px solid thistle;
+  margin: 30px 70px;
+  max-width: 300px;
+  height: 400px;
+}
