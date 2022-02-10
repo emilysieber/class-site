@@ -1,3 +1,64 @@
 *{
   box-sizing: border-box;
 }
+
+body{
+  background: ivory;
+}
+
+p{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+a{
+  font-family: serif;
+  font-size: 20px;
+}
+
+ul{
+  font-family: sans-serif;
+  color: white;
+}
+
+.relative{
+  position: relative;
+  top: 400px;
+}
+
+.shoe{
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  border: solid;
+}
+
+.jacket{
+  position: relative;
+  border: solid;
+  left: 30px;
+  top: 100px;
+}
+
+.bowling{
+  position: relative;
+  left: 120px;
+  bottom: 100px;
+  border: solid;
+}
+
+.sunglasses{
+  position: relative;
+  border: solid;
+  left: 300px;
+  padding: 15;
+
+}
+
+.cast{
+  position: fixed;
+  border: solid;
+  left: 950px;
+  top: 50px;
+
+}
