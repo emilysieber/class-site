@@ -37,7 +37,7 @@ body{
   width: 20vw;
   height:20vw;
   background-color: rgb(42, 99, 196);
-  animation: rotate 3s infinite linear;
+  animation: rotate 3s infinite ease;
 }
 
 @keyframes pulse {

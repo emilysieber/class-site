@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: radial-gradient(white,rgb(233, 220, 104));
+  font-size: 20px;
+}
+
+img{
+  max-width: 300px;
+}
+
+.object{
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transition: background-color .5s,
+  transform .5s,
+  border-radius .5s;
+  cursor: crosshair;
+}
+
+.object:hover {
+  background-color: rgb(222, 160, 0);
+  transform: scale(2);
+  border-radius: 0;
+}
+
+.special{
+  color: rgb(32, 213, 88);
+}
+
+.special:hover{
+  color: tomato;
+}
+
+.hidden{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.text{
+  top: 10px;
+  right: 10px;
+  bottom: auto;
+  left: auto;
+}
+
+.special:hover + .hidden {
+  opacity:1;
+}
+
+.interesting li:first-of-type {
+  color: tomato;
+
+}
