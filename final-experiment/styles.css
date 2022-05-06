@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #ffffeb;
+}
+
+.main_container{
+  display: flex;
+  flex-flow: column;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.seethru{
+  color: rgb(237, 237, 237);
+  opacity: 0.7;
+}
+
+.content{
+  display: flex;
+
+}
+
+.descriptions{
+  margin: 100px;
+}
+
+.square{
+  width: 300px;
+  height: 370px;
+  background-color: black;
+  margin: 100px;
+  margin-left: 250px;
+  margin-right: 40px;
+}

@@ -9,6 +9,8 @@ body{
 }
 
 .loading{
+  width: 100vw;
+  height: 100vh;
   display: flex;
   animation: color 2s ease-in infinite;
 }
