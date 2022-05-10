@@ -1,0 +1,54 @@
+body{
+  background-color: lavenderblush;
+  cursor: crosshair;
+}
+
+a{
+  cursor: pointer;
+}
+
+h1{
+  font-family: "Snell Roundhand", cursive;
+  text-align: center;
+
+}
+
+.home{
+  font-size: 15px;
+}
+
+.responses{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-flow: column;
+
+}
+
+.title{
+  text-align: left;
+}
+
+h2{
+  font-size: 15px;
+  text-align: left;
+}
+
+p{
+  text-align: center;
+}
+
+.important{
+  color: red;
+}
+
+.relative{
+  position: relative;
+  right: 300px;
+}
+
+.space{
+  background-color: transparent;
+  width: 100%;
+  height: 100px;
+}

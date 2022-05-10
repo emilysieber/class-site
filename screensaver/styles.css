@@ -11,8 +11,11 @@ body{
 .loading{
   width: 100vw;
   height: 100vh;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
   display: flex;
-  animation: color 2s ease-in infinite;
+  animation: color 3s ease infinite;
 }
 
 .text{

@@ -1,5 +1,10 @@
 body{
   background-color: lavenderblush;
+  cursor: crosshair;
+}
+
+a{
+  cursor: pointer;
 }
 
 .h1{
